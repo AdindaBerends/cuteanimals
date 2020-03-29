@@ -7,12 +7,109 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
     <link href="CSS/stylesheet.css" rel="stylesheet" type="text/css">
 	
 <title>Hello, world!</title>
   </head>
   <body>
     <h1>Hello, world!</h1>
+	  <!-- top of the page -->
+<nav class="navbar navbar-expand-lg navbar-dark my-navbar">
+  <a class="navbar-brand" href="#"> 
+	<img alt="cute animals logo" src="Images/logo.svg" height="35">
+	</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown01" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mammals
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown01">
+          <a class="dropdown-item" href="#">Hedgehog</a>
+          <a class="dropdown-item" href="#">Badger</a>
+          <a class="dropdown-item" href="#">Fox</a>
+		  <a class="dropdown-item" href="#">Rabbit</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown02" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Birds
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown02">
+          <a class="dropdown-item" href="#">Robin</a>
+          <a class="dropdown-item" href="#">Bluetit</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Sparrow</a>
+        </div>
+      </li>
+		
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown03" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Insects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown03">
+          <a class="dropdown-item" href="#">Ladybug</a>
+          <a class="dropdown-item" href="#">Dragonfly</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<header> <div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead"> Welcome to our website about cute animals</p>
+</div> </header>
+<section class="container"> 
+  <div class="card-body">
+    <h5 class="card-title">We support animal charities..</h5>
+    <p class="card-text">.. and you can too! Your money can save animals. Click below to check our partners&rsquo;s website and donate for a great cause!</p>
+    <a href="https://www.wwf.nl/kom-in-actie/met-een-donatie/word-donateur?utm_source=googlepaid&utm_medium=cpc&utm_campaign=aocdon&utm_content=WWF&gclid=Cj0KCQjwjoH0BRD6ARIsAEWO9DusA8Rqx9_rkSVp4w5SIMbhh15Fs-_mPVZr3VyotKO8aeF22NFSpNgaAkvwEALw_wcB" class="btn btn-primary">Donate here</a>
+  </div>
+ </section>
+<main class="container"> <!-- main grid -->
+	  <div class="row"> 
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2"> 
+			 <img alt="Image of a hedgehog" class="" src="Images/hedgehog.jpg" width="158" height="100"><br>
+			 <h4> Hedgehog </h4>
+			 <p> Erinaceus europaeus </p>
+		  </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2">  <img alt="Image of a badger" class="" src="Images/badger.jpg" width="158" height="100"><br>
+			 <h4> Badger </h4>
+			 <p> something else </p> </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2">  <img alt="Image of a fox" class="" src="Images/fox.jpg" width="158" height="100"><br>
+			 <h4> Fox </h4>
+			 <p> i don't know </p> </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2">  <img alt="Image of a rabbit" class="" src="Images/rabbit.jpg" width="158" height="100"><br>
+			 <h4> Rabbit </h4>
+			 <p> something different </p> </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2">  <img alt="Image of a Robin" class="" src="Images/Robin.jpg" width="158" height="100"><br>
+			 <h4> Robin </h4>
+			 <p> a kind of bird </p> </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2">  <img alt="Image of a blue tit" class="" src="Images/bluetit.jpg" width="158" height="100"><br>
+			 <h4> </h4>
+			 <p> Koolmees in Dutch</p> </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2"> <img alt="Image of a Sparow" class="" src="Images/sparrow.jpg" width="158" height="100"><br>
+			 <h4> Sparrow</h4>
+			 <p> Jack Sparrow </p> </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2">  <img alt="Image of a Ladybug" class="" src="Images/ladybug.jpg" width="158" height="100"><br>
+			 <h4> Ladybug </h4>
+			 <p> Very cute </p> </div>
+		  <div class="col-12 col-sm-6 col-md-4 col-xl-2">  <img alt="Image of a Dragonfly" class="" src="Images/dragonfly.jpg" width="158" height="100"><br>
+			 <h4> Dragonfly</h4>
+			 <p> very cool </p> </div>
+	</div>
+ </main>
+	  
+<footer class="jumbotron mb-0 text-right meadow-background"> <p>&copy;2020 Breda University of Applied Sciences </p>  </footer>
+	  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

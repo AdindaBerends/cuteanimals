@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+Body{ 
+background-color: #e0ffe0;
+color: #004000;
+}
+
+.meadow-background {
+	background-image: url("../Images/background.jpg");
+}
+
+.my-navbar {
+	background-color: #004000;
+}
